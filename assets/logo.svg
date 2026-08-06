@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="奧銳任務箱">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#82ccff"/><stop offset="1" stop-color="#39a9ff"/></linearGradient></defs>
+  <path d="M14 19.5 32 9l18 10.5v25L32 55 14 44.5z" fill="none" stroke="url(#g)" stroke-width="4"/>
+  <path d="M21 39 32 20l11 19M26 33h12" fill="none" stroke="#f3f7fb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
