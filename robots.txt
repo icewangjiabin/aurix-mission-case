@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://aurui-mission-case.vercel.app/sitemap.xml
+Sitemap: https://aurix.com.tw/sitemap.xml

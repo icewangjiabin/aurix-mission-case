@@ -19,7 +19,7 @@ export default async function handler(req, res) {
   };
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.email)) return res.status(400).json({ error: '請填寫有效的 Email。' });
   const apiKey = process.env.RESEND_API_KEY;
-  const to = process.env.INQUIRY_TO_EMAIL || 'ice@taioan.pro';
+  const to = process.env.INQUIRY_TO_EMAIL || 'aurix.cases@gmail.com';
   const from = process.env.INQUIRY_FROM_EMAIL;
   if (!apiKey || !from) return res.status(503).json({ error: 'Email service is not configured' });
   const escape = (value='') => String(value).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));

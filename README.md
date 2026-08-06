@@ -8,16 +8,13 @@
 3. Build Command 留空，Output Directory 留空。
 4. 加入環境變數：
    - `RESEND_API_KEY`
-   - `INQUIRY_TO_EMAIL`
-   - `INQUIRY_FROM_EMAIL`（須為 Resend 已驗證網域的寄件地址）
-5. 目前 canonical、robots.txt 與 sitemap.xml 使用 `aurui-mission-case.vercel.app`；取得正式網域後更新 `site-config.json` 並執行 `python3 configure.py`。
+   - `INQUIRY_TO_EMAIL=aurix.cases@gmail.com`
+   - `INQUIRY_FROM_EMAIL=奧銳任務箱 <website@aurix.com.tw>`（須先由 Resend 驗證 aurix.com.tw）
+5. 正式網域已設定為 `aurix.com.tw`；部署後確認 `www.aurix.com.tw` 301 轉址至主網域。
 
-## 尚待設定／替換
-- 正式網域（目前使用 Vercel Production 網址）
-- `RESEND_API_KEY`
-- `INQUIRY_FROM_EMAIL`（Resend 已驗證網域的寄件地址）
+## 尚待替換
 - 真實案例圖片與箱體配置照片
-- 公司法人名稱、統編、地址、電話（目前不公開）
+- 公司法人名稱、統編、地址、電話
 - 經銷／供貨身分之合約允許用語
 
 ## 注意

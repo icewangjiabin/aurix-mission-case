@@ -36,7 +36,7 @@ if (form) {
       form.reset();
       status.textContent = '資料已送出。我們將依設備清單與任務條件進行初步評估。';
     } catch (error) {
-      status.textContent = '目前表單尚未完成郵件設定，請直接來信 ice@taioan.pro，主旨註明「無人機任務箱評估」。';
+      status.textContent = '目前表單尚未完成郵件設定，請直接來信 aurix.cases@gmail.com，主旨註明「無人機任務箱評估」。';
     } finally {
       button.disabled = false;
       form.removeAttribute('aria-busy');
