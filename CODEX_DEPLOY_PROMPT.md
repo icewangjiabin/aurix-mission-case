@@ -8,7 +8,8 @@
 4. 使用已確認的正式設定：
    - 正式網域：`aurix.com.tw`
    - 品牌收件信箱：`aurix.cases@gmail.com`
-   - 正式法人名稱與聯絡電話目前先不公開
+   - 正式法人名稱：上進勤利貿易有限公司
+   - 聯絡電話：02 2301 5808
 5. 執行 `python configure.py`，並確認 canonical、Open Graph、robots.txt、sitemap.xml 與表單備援信箱均已套用正式網域與信箱。
 6. 將專案匯入 Vercel：
    - Framework Preset：Other
